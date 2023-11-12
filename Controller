@@ -1,0 +1,27 @@
+//Programming Languages CS3360 Dr. Cheon
+	import 'package:omok/user_interface.dart';
+	import 'package:omok/web_client.dart';
+	
+
+	import 'board.dart';
+	
+
+///Controller class transfers data from web_client to user_interface
+class Controller{
+  var ui; ///userInterface object that interacts with user
+  var webClient; ///gets information from server
+  var board; ///represents OMOK board
+
+  Controller(){
+	  board = Board();
+	  ui = UserInterface(board.gameBoard);
+	  webClient = WebClient();
+	}
+
+  ///starting point for the game
+  ///
+
+  ///asks user for input and makes sure it's valid
+
+  
+}
