@@ -1,0 +1,8 @@
+//Programming Languages CS3360 Dr. Cheon
+	import 'dart:io';
+
+class Board{
+	  ///mimics omok board with a 15x15 2d array
+	  List gameBoard = List.generate(15, (_) => List.filled(15, "."));
+
+}
