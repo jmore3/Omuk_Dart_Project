@@ -11,9 +11,7 @@ class WebClient{
 	  
 	WebClient();
 	
-
 	///returns true if [url] is valid and can connects to Omok Server
-	///
 	///returns 
 	Future<bool> processUrl(String url) async {
 	  if (url == ""){
