@@ -14,7 +14,7 @@ class UserInterface{
 	
 
 	///Displays start menu message and gets [url] from user
-  String startup(){
+  	String startup(){
 	  var defaultUrl = WebClient.defaultUrl;
 	  displayMessage("Welcome to Omok game!");
 	  displayMessage('Enter the server URL default = [$defaultUrl]');
@@ -22,9 +22,7 @@ class UserInterface{
 	  return url == "" ? defaultUrl : url!;
 	}
 	
-
 	///returns the [strategy] selected by user
-	///
 	///[info] is information from server, includes strategy
 	String getStrategy(info){
 	  stdout.writeln("Select the server strategy: 1. ${info['strategies'][0]} 2. ${info['strategies'][1]} [default: 1]");
@@ -39,7 +37,6 @@ class UserInterface{
 	  return strategy;
 	}
 	
-
 	///Shows a graphical representation of OMOK [board] in command line
 	void displayBoard(){
 	  stdout.writeln(xHeader);
