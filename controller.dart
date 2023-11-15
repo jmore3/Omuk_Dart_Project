@@ -83,7 +83,7 @@ class Controller{
   
       //check if two items were entered
       if (playerMove.length != 2){
-	ui.displayMessage("need to enter x and y (i.e. 10 11)");
+	      ui.displayMessage("need to enter x and y (i.e. 10 11)");
         return null;
       }
 
