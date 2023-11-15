@@ -1,6 +1,6 @@
 ///Programming Languages CS3360 Dr. Cheon
 import 'package:http/http.dart' as http;
-import 'package:omok/parse.dart';
+import 'parse.dart';
 	
 
 class WebClient{

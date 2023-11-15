@@ -1,6 +1,6 @@
 //Programming Languages CS3360 Dr. Cheon
-	import 'package:omok/user_interface.dart';
-	import 'package:omok/web_client.dart';
+	import 'user_interface.dart';
+	import 'web_client.dart';
 	import 'board.dart';
 
 ///Controller class transfers data from web_client to user_interface

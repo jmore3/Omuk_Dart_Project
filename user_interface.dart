@@ -1,6 +1,6 @@
 //Programming Languages CS3360 Dr. Cheon
 import 'dart:io';
-import 'package:omok/web_client.dart';
+import 'web_client.dart';
 	
 
 class UserInterface{
